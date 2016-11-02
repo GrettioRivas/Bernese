@@ -1,0 +1,151 @@
+
+html{
+	font-family:"proza libre", Lucida, serif;
+}
+
+header {
+	background-color: #6f8cb7;
+	background: radial-gradient(transparent, #6f8cb7 95%),
+				#6f8cb7 url('../img/Hdoggo.jpg') no-repeat;
+	background-size: cover;
+	height: 650px;
+	max-height: 650px;
+	width: 100%;
+	font-size: 1.9em;
+	text-shadow: 5px 5px 6px #000;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+header h1 {
+	margin-top: 0;
+}
+
+header .navigation {
+	padding-top: 35%;
+	max-height: 20%;
+}
+
+a:link {
+	color: #fff;
+	text-decoration: none;
+	transition: font-size .4s ease;
+}
+
+a:visited {
+	color:#fff;
+}
+
+a:hover {
+	color:#ddac52;
+	font-size: 1.2em;
+}
+
+header nav ul {
+	background: radial-gradient(#6f8cb7 25%, #1c3972 75%);
+	border-radius: 60%;
+	padding-left: 0;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	box-shadow: 5px 5px 7px #000;
+}
+
+header nav li {
+	list-style: none;
+	display: inline-block;
+	text-shadow: 3px 3px 5px #000;
+	padding: 5px 10px;
+}
+
+body {
+	background: radial-gradient(#ddac52 40%, #db4c18 60%),
+	#db6a41;
+	color: #fff;
+}
+
+#dogbody {
+	width: 80%;
+	max-width: 80%;
+	margin: 5% 10%;
+	padding-top: 2%;
+	background: radial-gradient(#6f8cb7 25%, #1c3972 75%);
+}
+
+#dogbody h3, p {
+	padding: 10px 15px;
+	text-align: center;
+}
+
+h2 {
+	padding: 10px 20px;
+	text-align: center;
+}
+
+.Overview, .Physique, .Personality, .Health, .Nutrition {
+	font-size: 1.2em;
+	background-color: #1c3972;
+	box-shadow: 8px 8px 7px #000;
+	border-radius: 20% 0 20% 0;
+	float: left;
+}
+
+.Overview li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 2%;
+}
+
+.Overview ul {
+	margin: 5px 10%;
+	padding-left: 4%;
+}
+
+.Overview img {
+	height: 300px;
+	width: 340px;
+	border-radius: 20%;
+}
+
+.boxes li {
+	list-style: none;
+}
+
+.boxes img {
+	height: 310px;
+	width: 350px;
+	border-radius: 20%;
+}
+
+.boxes p {
+	max-width: 30%;
+	float: left;
+	padding: 10px 10%;
+}
+
+.boxes ul {
+	float: right;
+	max-width: 30%;
+	padding: 10px 10%;
+}
+
+.group {
+	content: "";
+	display: table;
+	clear: both;
+	max-width: 80%;
+	text-align: left;
+	font-size: 0.9em;
+}
+
+.group p {
+	
+}
+
+
+/***Colors: #1c3972 blue   
+cool #6f8cb7  
+light orange #db6a41
+orange  #db4c18
+yellow	#ddac52
+  ***/
