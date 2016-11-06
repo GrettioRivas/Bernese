@@ -154,6 +154,18 @@ h2 {
 		height: 260px;
 		padding-top: 40px;
 	}
+	
+	.Overview img {
+		width: 220px;
+		height: 260px;
+	}
+
+	.Overview ul {
+		width: 500px;
+		padding-left: 0;
+		margin-left: 0;
+	}
+}
 }
 
 /***Colors: #1c3972 blue   
