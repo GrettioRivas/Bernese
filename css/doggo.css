@@ -25,6 +25,8 @@ header h1 {
 header .navigation {
 	padding-top: 35%;
 	max-height: 20%;
+	width: 100%;
+	float: left;
 }
 
 a:link {
@@ -142,6 +144,17 @@ h2 {
 	
 }
 
+@media(max-width: 1080px) {
+	header .navigation {
+		padding-top: 45%;
+	}
+
+	.boxes img {
+		width: 220px;
+		height: 260px;
+		padding-top: 40px;
+	}
+}
 
 /***Colors: #1c3972 blue   
 cool #6f8cb7  
